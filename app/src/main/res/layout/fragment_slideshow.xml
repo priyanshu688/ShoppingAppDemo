@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/contact"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Here"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:id="@+id/contactemail"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject Here"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:id="@+id/contactsubject"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter Message Here"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:gravity="top"
+        android:id="@+id/contactbody"/>
+    
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:id="@+id/contactbutton"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:layout_gravity="center"/>
+    
+    
+</LinearLayout>
